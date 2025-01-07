@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department Facilities Collage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #004aad;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .facility {
+      position: relative;
+      border: 1px solid #ddd;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .facility img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .facility h3 {
+      margin: 0;
+      padding: 10px;
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .facility p {
+      padding: 10px;
+      color: #555;
+      text-align: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .facility h3 {
+        font-size: 16px;
+      }
+
+      .facility p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Our Department Facilities</h1>
+    <p>Explore the resources and spaces that make our department outstanding</p>
+  </div>
+
+  <div class="collage">
+    <!-- Facility 1 -->
+    <div class="facility">
+      <img src="C:\Users\sadha\OneDrive\Pictures\resaerch lab.jpg" alt="Advanced Lab">
+      <h3>Advanced Research Lab</h3>
+      <p>Equipped with cutting-edge tools for innovation and experimentation.</p>
+    </div>
+
+    <!-- Facility 2 -->
+    <div class="facility">
+      <img src="C:\Users\sadha\Downloads\library.jpeg" alt="Modern Library">
+      <h3>Modern Library</h3>
+      <p>Thousands of books, journals, and digital resources at your fingertips.</p>
+    </div>
+
+    <!-- Facility 3 -->
+    <div class="facility">
+      <img src="C:\Users\sadha\OneDrive\Pictures\smart classroom.jpg" alt="Smart Classrooms">
+      <h3>Smart Classrooms</h3>
+      <p>Interactive technology for a modern learning experience.</p>
+    </div>
+
+    <!-- Facility 4 -->
+    <div class="facility">
+      <img src="C:\Users\sadha\OneDrive\Pictures\sport facilities.jpeg" alt="Sports Facilities">
+      <h3>Sports Facilities</h3>
+      <p>Outdoor and indoor spaces for physical fitness and recreation.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+</html>
